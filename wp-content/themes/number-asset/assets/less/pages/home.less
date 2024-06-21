@@ -1,0 +1,61 @@
+// main: "../main.less"
+
+.banner{
+    position: relative;
+    .info{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px;
+    }
+}
+
+.quem-somos{
+    padding: 0 0 64px 0;
+
+    .container{
+        padding-top: 40px;
+    }
+}
+
+.nossos-produtos{
+    padding: 124px 0;
+    background-color: @blue1;
+    .titulo{
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner{
+        .info{
+            padding: 0;
+        }
+    }
+    .quem-somos{
+        background: url('../img/quem-somos-bg.jpg') no-repeat;
+        background-size: 900px;
+        background-position: right;
+        padding: 92px 0;
+        .container{
+            padding-top: 0;
+        }
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .quem-somos{
+        background: url('../img/quem-somos-bg.jpg') no-repeat;
+        background-size: 900px;
+        background-position: right;
+        padding: 124px 0;
+    }
+}

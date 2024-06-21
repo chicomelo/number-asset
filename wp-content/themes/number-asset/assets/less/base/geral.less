@@ -1,0 +1,83 @@
+// main: "../main.less"
+
+*, body{
+    font-family: @font-family;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.titulo{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: @blue1;
+    line-height: 1.2;
+    span{
+        font-weight: 600;
+    }
+}
+
+.titulo-grande{
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: @white;
+    line-height: 1.4;
+}
+
+.sub-titulo{
+    line-height: 1.2;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: @blue1;
+}
+
+.paragrafo{
+    font-size: 1.6rem;
+    color: @grey1;
+    margin-top: 16px;
+    line-height: 1.4;
+    b{
+        color: @blue2;
+    }
+}
+.paragrafo-2{
+    font-size: 1.4rem;
+    color: @grey1;
+    line-height: 1.4;
+}
+
+
+@media (min-width: 992px) {
+    .titulo{
+        font-size: 3.6rem;
+        margin-bottom: 36px;
+    }
+    .titulo-grande{
+        font-size: 4.8rem;
+    }
+    .paragrafo{
+        font-size: 2.1rem;
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .titulo{
+        font-size: 4.4rem;
+        margin-bottom: 42px;
+    }
+    .titulo-grande{
+        font-size: 6.4rem;
+    }
+    .paragrafo{
+        font-size: 2.4rem;
+        margin-top: 32px;
+    }
+}
