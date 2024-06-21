@@ -363,9 +363,157 @@
         
         picture{
             height: 1110px;
-            img{
-            }
         }
 
+    }
+}
+
+
+
+.processo-investimento{
+    padding: 64px 0 92px 0;
+    background-color: @grey4;
+    .titulo{
+        margin-bottom: 42px;
+    }
+
+    .slider-equipe{
+        .icone{
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: @blue2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: @white;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        .paragrafo{
+            margin-top: 24px;
+        }
+
+    }
+}
+
+@media (min-width: 992px) {
+    .processo-investimento{
+        padding: 92px 0;
+        .titulo{
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .slider-equipe{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 42px 36px;
+            & > div {
+                width: 31%;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .processo-investimento{
+        padding: 124px 0;
+        .titulo{
+            margin-bottom: 64px;
+        }
+        .slider-equipe{
+            gap: 64px 48px;
+            & > div {
+                width: 30%;
+            }
+        }
+    }
+}
+
+
+.parcerias{
+    padding: 64px 0 92px 0;
+    .titulo{
+        margin-bottom: 48px;
+        text-align: center;
+    }
+    .slider-parcerias{
+        img{
+            margin: 0 auto;
+        }
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .parcerias{
+        padding: 92px 0;
+
+        .slider-parcerias{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 64px 82px;
+            & > div{
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    .parcerias{
+        padding: 124px 0;
+        .slider-parcerias{
+            gap: 82px 100px;
+        }
+    }
+}
+
+
+.contato{
+    background: @blue1;
+    text-align: center;
+    padding: 64px 0;
+    .titulo{
+        color: @white;
+        font-size: 3.2rem;
+    }
+    .paragrafo{
+        color: @grey2;
+        margin: 0;
+        a{
+            color: @white;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .parcerias{
+        padding: 92px 0;
+        .titulo{
+            font-size: 3.6rem;
+        }
+        .slider-parcerias{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 64px 82px;
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    .parcerias{
+        padding: 124px 0;
+        .slider-parcerias{
+            gap: 82px 100px;
+        }
     }
 }

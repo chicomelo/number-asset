@@ -35,7 +35,7 @@ the_content();
     
 </section>
 
-<section class="quem-somos">
+<section class="quem-somos" id="quem-somos">
     <img class="img-fluid d-md-none" src="<?php echo do_shortcode("[img-url]"); ?>quem-somos-bg-mobile.png" alt="" />
     <div class="container">
         <div class="row">
@@ -49,7 +49,7 @@ the_content();
     </div>
 </section>
 
-<section class="nossos-produtos">
+<section class="nossos-produtos" id="nossas-solucoes">
     <div class="container">
         <h2 class="titulo">Nossos produtos e serviços</h2>
 
@@ -107,7 +107,7 @@ the_content();
     </div>
 </section>
 
-<section class="nossa-equipe">
+<section class="nossa-equipe" id="equipe">
     <div class="container">
         <h2 class="titulo">Nossa equipe</h2>
 
@@ -227,6 +227,77 @@ the_content();
         </div>
     </div>
 </section>
+
+<section class="processo-investimento" id="processo-de-investimento">
+
+    <div class="container">
+
+        <h2 class="titulo">Processo de Investimento</h2>
+
+        <div class="slider-equipe">
+            <div>
+                <div class="icone">
+                    1
+                </div>
+                <p class="paragrafo">O time de gestão de crédito e risco é responsável por conduzir, com o auxílio das consultoras especializadas, o processo de pesquisa, atribuição de Rating Interno e monitoramento dos cedentes/sacados e emissões.</p>
+            </div>
+            <div>
+                <div class="icone">
+                    2
+                </div>
+                <p class="paragrafo">Todas as operações adquiridas e mantidas nos fundos são submetidas a um ranking definido pelo Rating Interno e a um rigoroso monitoramento de crédito.</p>
+            </div>
+            <div>
+                <div class="icone">
+                    3
+                </div>
+                <p class="paragrafo">O <i>Rating Interno</i> é uma ferramenta utilizada para determinar a capacidade e disposição de um emissor de cumprir as obrigações assumidas em um instrumento de dívida.</p>
+            </div>
+            <div>
+                <div class="icone">
+                    4
+                </div>
+                <p class="paragrafo">A nota do <i>Rating Interno</i> de uma determinada emissão também pode variar em relação a nota do emissor por características específicas como senioridade/subordinação e garantias atreladas.</p>
+            </div>
+            <div>
+                <div class="icone">
+                    5
+                </div>
+                <p class="paragrafo">As equipes de compliance e jurídico trabalham em conjunto verificando as condições precedentes, documentos de formalização, relatórios externos, legal Opinion e mandato dos fundos investidores.</p>
+            </div>
+            <div>
+                <div class="icone">
+                    6
+                </div>
+                <p class="paragrafo">A área de risco tem atuação independente da equipe de gestão. Reporta diretamente ao comitê os eventos de violação de limites de risco e mandatos. Tem como responsabilidade a execução de reenquadramento quando houver necessidade.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="parcerias">
+    <div class="container">
+        <h2 class="titulo">Parcerias e Sistemas</h2>
+        <div class="slider-parcerias">
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-1.png" alt="Darmont" /></div>
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-2.png" alt="Alfama" /></div>
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-3.png" alt="Sinai" /></div>
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-4.png" alt="Vaju" /></div>
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-5.png" alt="Planner" /></div>
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-6.png" alt="Sinqia" /></div>
+            <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-7.png" alt="Lote 45" /></div>
+        </div>
+    </div>
+</section>
+
+<section class="contato" id="contato">
+    <div class="container">
+        <h2 class="titulo">Quer saber mais sobre nossas soluções?</h2>
+        <p class="paragrafo">Entre em contato conosco através do e-mail <a href="mailto: ola@numberasset.com">ola@numberasset.com</a></p>
+    </div>
+</section>
+
 
 <?php
     get_footer();

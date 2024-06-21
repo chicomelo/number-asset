@@ -40,7 +40,17 @@ jQuery(document).ready(function ($) {
                 slidesToShow: 1
             });
         }
-        
+        if ($('.slider-parcerias').length) {
+            $('.slider-parcerias').slick({
+                lazyLoad: 'ondemand',
+                adaptiveHeight: true,
+                centerPadding: '0',
+                infinite: false,
+                arrows: false,
+                dots: true,
+                slidesToShow: 1
+            });
+        }
     }
 
     // if ($('.lista-solucoes').length) {
