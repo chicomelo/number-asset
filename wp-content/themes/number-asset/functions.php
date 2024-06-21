@@ -10,10 +10,10 @@ function hs_image_editor_default_to_gd( $editors ) {
 add_filter( 'wp_image_editors', 'hs_image_editor_default_to_gd' );
 
 
-if ( ! function_exists( 'alfama_assets' ) ) :
+if ( ! function_exists( 'custom_assets' ) ) :
 
 
-	function alfama_assets() {
+	function custom_assets() {
 
 		$theme_version = wp_get_theme()->get( 'Version' );
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
@@ -41,32 +41,16 @@ if ( ! function_exists( 'alfama_assets' ) ) :
 			$version_string,
 			true
 		);
-		wp_register_script( 
-			'fancybox', 
-			get_template_directory_uri() . '/assets/js/jquery.fancybox.min.js',
-			array('jquery'),
-			$version_string,
-			true
-		);
-		wp_register_script( 
-			'jquery-mask', 
-			get_template_directory_uri() . '/assets/js/jquery.mask.min.js',
-			array('jquery'),
-			$version_string,
-			true
-		);
 		
 		wp_enqueue_style( 'main-style' );
 		wp_enqueue_script( 'main-scripts' );
 		wp_enqueue_script( 'slick-slider' );
-		wp_enqueue_script( 'fancybox' );
-		wp_enqueue_script( 'jquery-mask' );
 
 	}
 
 endif;
 
-add_action( 'wp_enqueue_scripts', 'alfama_assets' );
+add_action( 'wp_enqueue_scripts', 'custom_assets' );
 
 // Add Shortcode
 function img_url() {
@@ -82,10 +66,10 @@ function add_Main_Nav() {
 add_action( 'init', 'add_Main_Nav' );
 
 
-function alfama_custom_logo_setup() {
+function custom_logo_setup() {
 	$defaults = array(
-		'height'               => 180,
-		'width'                => 105,
+		'height'               => 158,
+		'width'                => 35,
 		'flex-height'          => true,
 		'flex-width'           => true,
 		'header-text'          => array( 'site-title', 'site-description' ),
@@ -93,7 +77,7 @@ function alfama_custom_logo_setup() {
 	);
 	add_theme_support( 'custom-logo', $defaults );
 }
-add_action( 'after_setup_theme', 'alfama_custom_logo_setup' );
+add_action( 'after_setup_theme', 'custom_logo_setup' );
 
 add_theme_support( 'custom-logo' );
 

@@ -15,6 +15,41 @@
         padding: 40px;
     }
 }
+@media (min-width: 992px) {
+    .banner{
+        .info{
+            padding: 0;
+        }
+    }
+}
+
+
+.slick-dots{
+    & > li {
+        height: 10px;
+        width: 8px;
+        height: 5px;
+        margin: 0 4px;
+        transition: 0.3s all;
+        button{
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: @grey3;
+            border-radius: 1px;
+            &::before{
+                display: none;
+            }
+        }
+        &.slick-active{
+            width: 15px;
+            button{
+                background-color: @blue2;
+            }
+        }
+    }
+}
+
 
 .quem-somos{
     padding: 0 0 64px 0;
@@ -24,21 +59,7 @@
     }
 }
 
-.nossos-produtos{
-    padding: 124px 0;
-    background-color: @blue1;
-    .titulo{
-        color: #fff;
-        text-align: center;
-    }
-}
-
 @media (min-width: 992px) {
-    .banner{
-        .info{
-            padding: 0;
-        }
-    }
     .quem-somos{
         background: url('../img/quem-somos-bg.jpg') no-repeat;
         background-size: 900px;
@@ -53,9 +74,298 @@
 
 @media (min-width: 1600px) {
     .quem-somos{
-        background: url('../img/quem-somos-bg.jpg') no-repeat;
-        background-size: 900px;
-        background-position: right;
+        background-size: auto;
         padding: 124px 0;
+    }
+}
+
+.nossos-produtos{
+    padding: 64px 0 92px 0;
+    background-color: @blue1;
+    .titulo{
+        color: @white;
+        margin-bottom: 42px;
+    }
+
+    .slider-produtos{
+        .icone{
+            width: 52px;
+        }
+        p{
+            color: @grey2;
+            padding-left: 30px;
+            font-size: 1.6rem;
+        }
+
+        .sub-titulo{
+            color: @white;
+            padding: 0;
+            margin-top: 24px;
+            font-size: 2.0rem;
+        }
+
+        .topico{
+            color: @white;
+            margin-top: 20px;
+            position: relative;
+            font-size: 2.0rem;
+            &::before{
+                width: 12px;
+                height: 12px;
+                content: "";
+                display: block;
+                background-color: transparent;
+                border-radius:50%;
+                border: 2px solid @blue2;
+                position: absolute;
+                top: 7px;
+                left: 0;
+            }
+        }
+
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .nossos-produtos{
+        padding: 92px 0;
+        .titulo{
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .slider-produtos{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 42px 36px;
+            & > div {
+                width: 47%;
+            }
+            p{
+                font-size: 2.0rem;
+            }
+            .sub-titulo{
+                font-size: 2.4rem;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .nossos-produtos{
+        padding: 124px 0;
+        .titulo{
+            margin-bottom: 64px;
+        }
+        .slider-produtos{
+            gap: 64px 48px;
+            & > div {
+                width: 48%;
+            }
+        }
+    }
+}
+
+
+
+.nossa-equipe{
+    padding: 64px 0 92px 0;
+    background-color: @grey4;
+    .titulo{
+        margin-bottom: 42px;
+    }
+
+    .slider-equipe{
+        .icone{
+            width: 52px;
+        }
+
+        .nome{
+            color: @blue1;
+            margin: 24px 0;
+            font-weight: 700;
+            font-size: 2.4rem;
+        }
+        .paragrafo{
+            margin: 0;
+        }
+
+    }
+}
+
+@media (min-width: 992px) {
+    .nossa-equipe{
+        padding: 92px 0;
+        .titulo{
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .slider-equipe{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 42px 36px;
+            & > div {
+                width: 31%;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .nossa-equipe{
+        padding: 124px 0;
+        .titulo{
+            margin-bottom: 64px;
+        }
+        .slider-equipe{
+            gap: 64px 48px;
+            & > div {
+                width: 30%;
+            }
+        }
+    }
+}
+
+.valores{
+    padding: 64px 0;
+    .titulo{
+        margin-top: 32px;
+    }
+    .topico{
+        margin: 24px 0 16px 0;
+        color: @blue1;
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+    .paragrafo{
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .valores{
+        padding: 92px 0;
+        .row{
+            align-items: center;
+        }
+        .col-12{
+            position: relative;
+        }
+        picture{
+            display: block;
+            height: 724px;
+            img{
+                position: absolute;
+                top: 0;
+                right:42px;
+                max-width: none;
+                height: 100%;
+            }
+        }
+        .titulo{
+            margin-top: 0;
+        }
+        .topico{
+            margin: 28px 0 16px 0;
+        }
+
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .valores{
+        padding: 124px 0;
+        picture{
+            height: 892px;
+            img{
+                right: 64px;
+            }
+        }
+
+    }
+}
+
+
+
+.estrutura{
+    padding: 64px 0 92px 0;
+    background-color: @blue2;
+    .titulo{
+        color: @white;
+    }
+    .topico{
+        margin: 24px 0 16px 0;
+        color: @white;
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+    .paragrafo{
+        margin: 0;
+        color: @grey3;
+    }
+    .slick-dots{
+        & > li {
+            button{
+                background-color: rgba(255,255,255,0.4);
+            }
+            &.slick-active{
+                button{
+                    background-color: @white;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+    .estrutura{
+        padding: 0;
+        overflow: hidden;
+        .row{
+            align-items: center;
+        }
+        .col-12{
+            position: relative;
+        }
+        .col-md-7{
+            padding-right: 64px;
+        }
+        picture{
+            display: block;
+            height: 920px;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                max-width: none;
+                height: 100%;
+            }
+        }
+        .titulo{
+            margin-top: 0;
+        }
+        .topico{
+            margin: 24px 0 16px 0;
+        }
+
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .estrutura{
+        
+        picture{
+            height: 1110px;
+            img{
+            }
+        }
+
     }
 }
