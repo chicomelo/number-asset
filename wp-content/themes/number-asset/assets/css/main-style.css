@@ -4567,6 +4567,7 @@ a {
 }
 .header-principal .header__wrapper .logo__wrapper .logo {
   z-index: 2;
+  width: 117px;
 }
 .header-principal .header__wrapper .logo__wrapper .logo a {
   display: block;

@@ -4,25 +4,6 @@ get_header();
 the_content();
 ?>
 
-
-<!-- <section class="food-service">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <picture>
-                    <source media="(max-width: 799px)" srcset="<?php echo do_shortcode("[img-url]"); ?>img-food-service-mobile.jpg" />
-                    <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>img-food-service.jpg" alt="Somos especialistas em Food Service" />
-                </picture>
-            </div>
-            <div class="col-12 col-md-6">
-                <h1 class="titulo mt-4 mt-md-0">Somos especialistas em <br /><b class="red">Food Service</b></h1>
-                <p class="paragrafo mb-5">Identificamos as dificuldades nas rotinas das principais cozinhas profissionais do Brasil e investimos no desenvolvimento de soluções completas em proteína animal: produtos que facilitam a operação, simplificam processos, reduzem custos e garantem qualidade e sabor às suas receitas.</p>
-                <a href="/sobre-a-alfama/" class="btn btn-outline" title="Saiba mais">Saiba mais</a>
-            </div>
-        </div>
-    </div>
-</section> -->
-
 <section class="banner">
     <div class="info">
         <p class="titulo-grande">Entregamos números que impulsionam</p>
