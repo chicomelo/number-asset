@@ -1,46 +1,99 @@
 // main: "../main.less"
 
-.footer__alfama{
+.footer__number{
     background-color: @blue2;
     color: @white;
-    padding: 84px 0;
+    padding: 64px 0;
 
-    .footer__wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 42px;
-        .logo{
-            width: 205px;
-            height: 45px;
-        }
-        .copy{
-            text-align: center;
-            font-size: 1.6rem;
+    .logo{
+        width: 205px;
+        height: 45px;
+        margin: 0 auto;
+        margin-bottom: 42px;
+        svg{
+            display: block;
         }
     }
+    p{
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+    .copy{
+        margin-top: 42px;
+        text-align: center;
+    }
+    .endereco{
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    .canal-denuncia{
+        margin-top: 42px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        
+        img{
+            margin-top: 8px;
+        }
+    }
+
+    .btn__wrapper{
+        display: flex;
+        margin-top: 42px;
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        a{
+            border: 2px solid #0056D3;
+            border-radius: 12px;
+            padding: 16px 24px;
+            text-align: center;
+            width: fit-content;
+        }
+    }
+        
 }
 
 
 @media (min-width: 992px) {
-    .footer__alfama{
+    .footer__number{
         padding: 64px 0;
-        .footer__wrapper{
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            gap: 0;
-            .logo{
-                width: 276px;
-                height: 61px;
-            }
+        .logo{
+            width: 276px;
+            height: 61px;
+            margin: 0;
+            margin-bottom: 64px;
         }
+
+        .copy{
+            margin-top: 64px;
+            text-align: left;
+        }
+        .endereco{
+            margin: 0;
+            text-align: right;
+        }
+        .canal-denuncia{
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: 0;
+
+        }
+    
+        .btn__wrapper{
+            margin-top: 64px;
+            flex-direction: row;
+        }
+
     }
+    
 }
 
 
 @media (min-width: 1600px) {
-    .footer__alfama{
+    .footer__number{
         padding: 84px 0;
     }
 }

@@ -2,6 +2,7 @@
 
 .banner{
     position: relative;
+    text-align: center;
     .info{
         position: absolute;
         top: 0;
@@ -90,6 +91,7 @@
     .slider-produtos{
         .icone{
             width: 52px;
+            height: 52px;
         }
         p{
             color: @grey2;
@@ -102,6 +104,7 @@
             padding: 0;
             margin-top: 24px;
             font-size: 2.0rem;
+            height: 48px;
         }
 
         .topico{
@@ -109,6 +112,7 @@
             margin-top: 20px;
             position: relative;
             font-size: 2.0rem;
+
             &::before{
                 width: 12px;
                 height: 12px;
@@ -116,13 +120,16 @@
                 display: block;
                 background-color: transparent;
                 border-radius:50%;
-                border: 2px solid @blue2;
+                border: 2px solid #0056D3;
                 position: absolute;
                 top: 7px;
                 left: 0;
             }
         }
 
+        .slick-slide{
+            padding-right: 26px;
+        }
         
     }
 }
@@ -147,6 +154,7 @@
             }
             .sub-titulo{
                 font-size: 2.4rem;
+                height: auto;
             }
         }
     }
@@ -190,6 +198,9 @@
         }
         .paragrafo{
             margin: 0;
+        }
+        .slick-slide{
+            padding-right: 26px;
         }
 
     }
@@ -308,6 +319,9 @@
         margin: 0;
         color: @grey3;
     }
+    .slick-slide{
+        padding-right: 26px;
+    }
     .slick-dots{
         & > li {
             button{
@@ -378,6 +392,9 @@
     }
 
     .slider-equipe{
+        .slick-slide{
+            padding-right: 26px;
+        }
         .icone{
             width: 52px;
             height: 52px;
@@ -440,6 +457,10 @@
         text-align: center;
     }
     .slider-parcerias{
+        .slick-track{
+            display: flex;
+            align-items: center;
+        }
         img{
             margin: 0 auto;
         }
@@ -457,7 +478,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 64px 82px;
+            gap: 24px 64px;
             & > div{
                 padding: 20px;
             }
@@ -469,7 +490,7 @@
     .parcerias{
         padding: 124px 0;
         .slider-parcerias{
-            gap: 82px 100px;
+            gap: 24px 64px;
         }
     }
 }
@@ -494,26 +515,13 @@
 }
 
 @media (min-width: 992px) {
-    .parcerias{
+    .contato{
         padding: 92px 0;
-        .titulo{
-            font-size: 3.6rem;
-        }
-        .slider-parcerias{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 64px 82px;
-        }
     }
 }
 
 @media (min-width: 1600px) {
-    .parcerias{
-        padding: 124px 0;
-        .slider-parcerias{
-            gap: 82px 100px;
-        }
+    .contato{
+        
     }
 }

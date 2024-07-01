@@ -18,6 +18,7 @@
  * @package WordPress
  */
 
+ 
 // ** Configurações do banco de dados - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
 define( 'DB_NAME', 'number_wp_asset' );
@@ -85,7 +86,7 @@ $table_prefix = 'nb_as_';
 define( 'WP_DEBUG', false );
 
 /* Adicione valores personalizados entre esta linha até "Isto é tudo". */
-
+define('WPCF7_AUTOP', false );
 
 
 /* Isto é tudo, pode parar de editar! :) */
