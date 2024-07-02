@@ -1,0 +1,158 @@
+// main: "../main.less"
+
+.informacoes-regulatorias__wrapper{
+    padding: 64px 0 92px;
+
+    .titulo{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .sub-titulo{
+        font-size: 3.2rem;
+        color: @blue1;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 42px;
+        text-align: center;
+    }
+
+    .lista-downloads{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 64px 16px;
+        width: 100%;
+        & > div{
+            width: 100%;
+            text-align: center;
+        }
+        .icone{
+            text-align: center;
+            img{
+                width: 52px;
+                height: 67px;
+                display: inline-block;
+            }
+        }
+        .nome{
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: @blue1;
+            margin: 12px 0 8px 0;
+        }
+        .data{
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #8C8C8C;
+        }
+        .btn{
+            margin-top: 12px;
+            a{
+                margin: 0;
+                display: block;
+                background-color: #0042AD;
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: @white;
+                border-radius: 12px;
+                padding: 12px 48px;
+                text-align: center;
+                width: fit-content;
+                transition: all 0.2s;
+                margin: 0 auto;
+                &:hover{
+                    background-color: @blue3;
+                }
+            }
+
+        }
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .informacoes-regulatorias__wrapper{
+        padding: 64px 0 92px;
+
+        .titulo{
+            text-align: left;
+        }
+        
+        .sub-titulo{
+            font-size: 2.8rem;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+    
+        .lista-downloads{
+            gap: 64px 16px;
+            & > div{
+                text-align: left;
+                width: 32%;
+            }
+            .icone{
+                text-align: left;
+            }
+            .nome{
+                font-size: 1.8rem;
+                margin: 16px 0 8px 0;
+                height: auto;
+                &.medium{
+                    height: 44px;
+                }
+                &.big{
+                    height: 72px;
+                }
+            }
+            .data{
+                font-size: 1.4rem;
+            }
+            .btn{
+                margin-top: 16px;
+                a{
+                    margin: 0;
+                    padding: 12px 64px;
+                }
+    
+            }
+        }
+    
+    }
+}
+
+@media (min-width: 1600px) {
+    .informacoes-regulatorias__wrapper{
+        padding: 64px 0 92px;
+
+        .sub-titulo{
+            font-size: 3.6rem;
+            margin-bottom: 48px;
+        }
+    
+        .lista-downloads{
+            gap: 92px 16px;
+            .nome{
+                font-size: 2.3rem;
+                margin: 24px 0 8px 0;
+                padding-right: 16px;
+                &.medium{
+                    height: 62px;
+                }
+                &.big{
+                    height: 92px;
+                }
+            }
+            .data{
+                font-size: 1.6rem;
+            }
+            .btn{
+                margin-top: 24px;
+                a{
+                    padding: 12px 64px;
+                }
+    
+            }
+        }
+    
+    }
+}

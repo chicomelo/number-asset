@@ -1,6 +1,9 @@
-<?php wp_footer(); ?>
-
-</body>
+<section class="contato" id="contato">
+    <div class="container">
+        <h2 class="titulo">Quer saber mais sobre nossas soluções?</h2>
+        <p class="paragrafo">Entre em contato conosco através do e-mail <a href="mailto: rodrigo@numberasset.com.br">rodrigo@numberasset.com.br</a></p>
+    </div>
+</section>
 
 <footer class="footer__number">
     <div class="container">
@@ -33,8 +36,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-9">
+            <div class="col-12">
                 <div class="btn__wrapper">
+                    <a href="/informacoes-regulatorias/" title="Informações regulatórias">Informações regulatórias</a>
                     <a href="/politica-de-privacidade-e-cookies/" title="Política de privacidade e cookies">Política de privacidade e cookies</a>
                     <a href="javascript: void(0);" class="btn-altere-configuracao" title="Altere suas configurações">Altere suas configurações</a>
                     <a href="/canal-de-denuncias/" title="Canal de denúncias">Canal de denúncias</a>
@@ -43,9 +47,12 @@
                     Number Asset Brasil © Copyright <?php echo date('Y'); ?> | Todos os direitos reservados
                 </div>
             </div>
-            <div class="col-12 col-md-3">
-            </div>
+
         </div>
 
     </div>
 </footer>
+
+
+<?php wp_footer(); ?>
+</body>

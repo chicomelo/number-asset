@@ -41,7 +41,7 @@
             <li class="paragrafo">Cumprimento de obrigações contratuais e legais;</li>
             <li class="paragrafo">Fornecimento de informações e conteúdo de interesse para o Leitor;</li>
             <li class="paragrafo">Melhoria do funcionamento do website, incluindo a gestão e priorização de conteúdos; e</li>
-            <li class="paragrafo">Registro da inscrição em cursos, lives, webinars e eventos promovidos pela Empírica Investimentos.</li>
+            <li class="paragrafo">Registro da inscrição em cursos, lives, webinars e eventos promovidos pela Number Asset Brasil.</li>
         </ul>
 
         <h4>Compartilhamento dos dados</h4>
@@ -51,10 +51,10 @@
         <p class="paragrafo">Não nos responsabilizamos pelo conteúdo acessado por meio de qualquer conexão que leve o Leitor a navegar fora do domínio, sempre que tais conexões sejam da responsabilidade de terceiros.</p>
         <p class="paragrafo">Todos os dados coletados são processados de forma automática, sendo que a informação enviada pelos Leitores é encriptada e gerida com segurança avançada.</p>
         <p class="paragrafo">Nosso website utiliza as diversas medidas técnicas e organizativas de proteção tecnológica contra hackers e segurança de informação providas pela plataforma Amazon Web Services, e zela por apenas subcontratar fornecedores de serviços que garantam o mesmo nível de proteção, observando a exigência estabelecida na Lei Geral de Proteção de Dados Pessoais.</p>
-        <p class="paragrafo">Caso ocorra qualquer violação ou tentativa de violação de bases de dados obtidas por meio deste website, a Empírica Investimentos tomará as providências previstas na Lei Geral de Proteção de Dados Pessoais, sem prejuízo das implicações cíveis e criminais ao(s) infrator(es).</p>
+        <p class="paragrafo">Caso ocorra qualquer violação ou tentativa de violação de bases de dados obtidas por meio deste website, a Number Asset Brasil tomará as providências previstas na Lei Geral de Proteção de Dados Pessoais, sem prejuízo das implicações cíveis e criminais ao(s) infrator(es).</p>
 
         <h4>Direitos dos Titulares dos Dados</h4>
-        <p class="paragrafo">Os Leitores podem exercer os direitos para os contatos do responsável pelo tratamento dos dados pessoais da Empírica Investimentos mencionados abaixo na presente Política de Privacidade e Cookies.</p>
+        <p class="paragrafo">Os Leitores podem exercer os direitos para os contatos do responsável pelo tratamento dos dados pessoais da Number Asset Brasil mencionados abaixo na presente Política de Privacidade e Cookies.</p>
         <p class="paragrafo">Os Leitores detêm e podem exercer os seguintes direitos referentes aos respectivos dados pessoais:</p>
         <ul>
             <li class="paragrafo"><b>Direito de Informação</b> - no momento da sua coleta ou tratamento, o Titular dados pessoais tem direito a ser informado quanto à finalidade do tratamento, o responsável pelo tratamento dos dados, entidades a que poderão ser comunicados dos seus dados, condições de acesso e retificação, e quais dados obrigatórios e facultativos serão recolhidos.</li>
@@ -69,7 +69,7 @@
                 </ul>
             </li>
             <li class="paragrafo">
-                <b>Direito à Limitação do tratamento</b> - o tratamento pela Empírica Investimentos dos dados do Leitor está limitado ao consentimento deste.
+                <b>Direito à Limitação do tratamento</b> - o tratamento pela Number Asset Brasil dos dados do Leitor está limitado ao consentimento deste.
             </li>
             <li class="paragrafo">
                 <b>Direito de Portabilidade dos dados (transferência dos dados)</b> - o Leitor tem o direito de receber os seus dados ou de solicitar a transmissão deste para outra entidade, passando a outra entidade a ser inteiramente responsável pela segurança e tratamento dos dados (apenas se tecnicamente possível).
@@ -112,7 +112,7 @@
         <p class="paragrafo"><b>Cookies essenciais</b> - São bastante importantes para aceder a áreas específicas do website permitindo uma navegação correta.</p>
         <p class="paragrafo"><b>Cookies de funcionalidade</b> - Permitem que as preferências do Leitor sejam guardadas quando visita o website. Desta forma, não é necessário personalizar o website sempre que o visita.</p>
         <p class="paragrafo"><b>Cookies analíticos</b> - Permite analisar a forma como os Leitores utilizam o website, conhecer as páginas mais populares e monitorizar o desempenho do website, possibilitando perceber possíveis mensagens de erro neste. Nunca serão reveladas informações de caráter pessoal.</p>
-        <p class="paragrafo">Eventualmente, no website podem encontrar-se cookies de terceiros, cujo envio não está sob controle da Empírica Investimentos.</p>
+        <p class="paragrafo">Eventualmente, no website podem encontrar-se cookies de terceiros, cujo envio não está sob controle da Number Asset Brasil.</p>
 
         <h3>Considerações Finais</h3>
         <p class="paragrafo">Não nos responsabilizamos pelo conteúdo dos comentários dos seguidores. Quaisquer dados pessoais que sejam divulgados por algum Leitor neste contexto serão prontamente eliminados no momento em sejamos notificados da divulgação de tais dados.</p>

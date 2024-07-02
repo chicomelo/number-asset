@@ -1,9 +1,16 @@
 jQuery(document).ready(function ($) {
 
-    $('body').on('click', '.menu-hamburger__wrapper', function () {
-        $(this).toggleClass('active');
-        $('.menu-principal__wrapper').toggleClass('active');
-    });
+    if(window.screen.width < 769){
+        $('body').on('click', '.menu-hamburger__wrapper', function () {
+            $(this).toggleClass('active');
+            $('.menu-principal__wrapper').toggleClass('active');
+        });
+
+        $('body').on('click', '.menu .menu-item a', function () {
+            $('.menu-hamburger__wrapper').toggleClass('active');
+            $('.menu-principal__wrapper').toggleClass('active');
+        });
+    }
 
     $('body').on('click', '.btn-altere-configuracao', function (e) {
         e.preventDefault();

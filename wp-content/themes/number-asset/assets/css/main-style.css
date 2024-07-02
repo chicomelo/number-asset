@@ -4736,7 +4736,9 @@ a {
 }
 .footer__number .copy {
   margin-top: 42px;
+  font-size: 1.4rem;
   text-align: center;
+  line-height: 1.4;
 }
 .footer__number .endereco {
   text-align: center;
@@ -4752,20 +4754,25 @@ a {
 }
 .footer__number .canal-denuncia img {
   margin-top: 8px;
+  width: 169px;
 }
 .footer__number .btn__wrapper {
   display: flex;
   margin-top: 42px;
-  gap: 24px;
+  gap: 20px;
   flex-direction: column;
   align-items: center;
 }
 .footer__number .btn__wrapper a {
-  border: 2px solid #0056D3;
+  border: 2px solid #0042AD;
   border-radius: 12px;
   padding: 16px 24px;
   text-align: center;
   width: fit-content;
+  transition: all 0.2s;
+}
+.footer__number .btn__wrapper a:hover {
+  background: rgba(255, 255, 255, 0.05);
 }
 @media (min-width: 992px) {
   .footer__number {
@@ -4865,6 +4872,83 @@ a {
   .quem-somos {
     background-size: auto;
     padding: 124px 0;
+  }
+}
+.nossas-solucoes {
+  background-color: #093884;
+  padding: 64px 0 0 0;
+}
+.nossas-solucoes div {
+  height: 100%;
+}
+.nossas-solucoes .col-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nossas-solucoes .titulo {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.4;
+}
+.nossas-solucoes .sub-titulo {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin: 32px 0 64px 0;
+  line-height: 1.4;
+}
+.nossas-solucoes .btn {
+  margin: 0;
+  display: block;
+  background-color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #093884;
+  border-radius: 12px;
+  padding: 16px 42px;
+  text-align: center;
+  width: fit-content;
+  transition: all 0.2s;
+}
+.nossas-solucoes img {
+  margin-top: 64px;
+}
+@media (min-width: 992px) {
+  .nossas-solucoes {
+    background: url('../img/nossas-solucoes-bg.jpg') no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #093884;
+    height: 725px;
+    padding: 0;
+  }
+  .nossas-solucoes .titulo {
+    font-size: 4.8rem;
+  }
+  .nossas-solucoes .sub-titulo {
+    font-size: 3.2rem;
+    margin: 42px 0 64px 0;
+  }
+  .nossas-solucoes .btn {
+    padding: 16px 42px;
+  }
+}
+@media (min-width: 1600px) {
+  .nossas-solucoes {
+    height: 1021px;
+  }
+  .nossas-solucoes .titulo {
+    font-size: 6.4rem;
+  }
+  .nossas-solucoes .sub-titulo {
+    font-size: 4rem;
+    margin: 42px 0 64px 0;
+  }
+  .nossas-solucoes .btn {
+    padding: 16px 42px;
   }
 }
 .nossos-produtos {
@@ -5501,5 +5585,145 @@ a {
 @media (min-width: 1600px) {
   .denuncia__wrapper {
     padding: 64px 0 92px;
+  }
+}
+.informacoes-regulatorias__wrapper {
+  padding: 64px 0 92px;
+}
+.informacoes-regulatorias__wrapper .titulo {
+  margin-bottom: 0;
+  text-align: center;
+}
+.informacoes-regulatorias__wrapper .sub-titulo {
+  font-size: 3.2rem;
+  color: #0D2D51;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 42px;
+  text-align: center;
+}
+.informacoes-regulatorias__wrapper .lista-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px 16px;
+  width: 100%;
+}
+.informacoes-regulatorias__wrapper .lista-downloads > div {
+  width: 100%;
+  text-align: center;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .icone {
+  text-align: center;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .icone img {
+  width: 52px;
+  height: 67px;
+  display: inline-block;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .nome {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0D2D51;
+  margin: 12px 0 8px 0;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .data {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #8C8C8C;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .btn {
+  margin-top: 12px;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .btn a {
+  margin: 0;
+  display: block;
+  background-color: #0042AD;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px 48px;
+  text-align: center;
+  width: fit-content;
+  transition: all 0.2s;
+  margin: 0 auto;
+}
+.informacoes-regulatorias__wrapper .lista-downloads .btn a:hover {
+  background-color: #016CEC;
+}
+@media (min-width: 992px) {
+  .informacoes-regulatorias__wrapper {
+    padding: 64px 0 92px;
+  }
+  .informacoes-regulatorias__wrapper .titulo {
+    text-align: left;
+  }
+  .informacoes-regulatorias__wrapper .sub-titulo {
+    font-size: 2.8rem;
+    margin-bottom: 48px;
+    text-align: left;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads {
+    gap: 64px 16px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads > div {
+    text-align: left;
+    width: 32%;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .icone {
+    text-align: left;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .nome {
+    font-size: 1.8rem;
+    margin: 16px 0 8px 0;
+    height: auto;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .nome.medium {
+    height: 44px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .nome.big {
+    height: 72px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .data {
+    font-size: 1.4rem;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .btn {
+    margin-top: 16px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .btn a {
+    margin: 0;
+    padding: 12px 64px;
+  }
+}
+@media (min-width: 1600px) {
+  .informacoes-regulatorias__wrapper {
+    padding: 64px 0 92px;
+  }
+  .informacoes-regulatorias__wrapper .sub-titulo {
+    font-size: 3.6rem;
+    margin-bottom: 48px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads {
+    gap: 92px 16px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .nome {
+    font-size: 2.3rem;
+    margin: 24px 0 8px 0;
+    padding-right: 16px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .nome.medium {
+    height: 62px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .nome.big {
+    height: 92px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .data {
+    font-size: 1.6rem;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .btn {
+    margin-top: 24px;
+  }
+  .informacoes-regulatorias__wrapper .lista-downloads .btn a {
+    padding: 12px 64px;
   }
 }

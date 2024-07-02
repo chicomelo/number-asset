@@ -10,19 +10,19 @@ the_content();
     </div>
     <picture>
         <source media="(max-width: 799px)" srcset="<?php echo do_shortcode("[img-url]"); ?>banner-topo-mobile.jpg">
-            <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>banner-topo.jpg" alt="" />
+            <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>banner-topo.jpg" alt="Entregamos números que impulsionam" />
         </source>
     </picture>
     
 </section>
 
 <section class="quem-somos" id="quem-somos">
-    <img class="img-fluid d-md-none" src="<?php echo do_shortcode("[img-url]"); ?>quem-somos-bg-mobile.png" alt="" />
+    <img class="img-fluid d-md-none" src="<?php echo do_shortcode("[img-url]"); ?>quem-somos-bg-mobile.png" alt="Quem somos" />
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
                 <h2 class="titulo">Quem somos</h2>
-                <p class="paragrafo">A NUMBER nasce em fevereiro de 2024 fundada por profissionais experientes do mercado financeiro nas áreas de crédito, distribuição e gestão de recursos contando com um time que acumula mais de <b>20 anos de conhecimento</b>.</p>
+                <p class="paragrafo">A NUMBER nasce em fevereiro de 2024 fundada por profissionais do mercado financeiro que atuam nas áreas de crédito, operações estruturadas, distribuição e gestão de recursos contando com um time que acumula <b>mais de 20 anos de experiência e conhecimento de mercado</b>.</p>
                 <p class="paragrafo">Ainda em 2024, após publicação do Ato Declaratório no Diário Oficial e filiação à Anbima, iniciará as operações de gestão de fundos como uma ASSET INDEPENDENTE especializada nos segmentos de operações estruturadas, fundos de crédito privado e gestão de carteiras.</p>
                 <p class="paragrafo">Nosso compromisso pauta-se pela transparência e pela seriedade em todos os aspectos de atuação. Cada decisão que tomamos passa por processos dinâmicos que estão em constante aperfeiçoamento e por uma criteriosa validação por meio dos departamentos de Gestão, Risco e Compliance.</p>
             </div>
@@ -30,6 +30,21 @@ the_content();
     </div>
 </section>
 
+<section class="nossas-solucoes" id="nossas-solucoes">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5">
+                <h2 class="titulo">Soluções únicas, números exclusivos.</h2>
+                <p class="sub-titulo">Fundos de Investimentos em Direitos Creditórios, Situações Especiais</p>
+                <a class="btn" href="#contato" title="Entrar em contato">Entrar em contato</a>
+            </div>
+        </div>
+    </div>
+    <img class="img-fluid d-md-none" src="<?php echo do_shortcode("[img-url]"); ?>nossas-solucoes-mobile.jpg" alt="Soluções únicas, números exclusivos." />
+</section>
+
+<!-- 
 <section class="nossos-produtos" id="nossas-solucoes">
     <div class="container">
         <h2 class="titulo">Nossos produtos e serviços</h2>
@@ -86,7 +101,7 @@ the_content();
         </div>
 
     </div>
-</section>
+</section> -->
 
 <section class="nossa-equipe" id="equipe">
     <div class="container">
@@ -98,14 +113,14 @@ the_content();
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 55.89" xml:space="preserve"><path d="M49.42 42.33c-.4-.64-1.21-2.01-12.82-4.9l-3.42-3.29c1.71-1.75 3.09-4.06 4.03-6.68 1.68-.81 2.89-2.69 3.12-4.87.17-1.75-.27-3.42-1.24-4.6.27-7.35-.94-12.29-3.66-15.14-3.09-3.26-7.96-3.66-14.8-1.28-.57-.03-1.01-.07-1.41-.07-1.14 0-2.79.17-4.06 1.51-1.98 2.08-2.69 6.58-2.28 14.97-.97 1.21-1.41 2.89-1.24 4.6.23 2.18 1.44 4.1 3.12 4.87.94 2.65 2.35 4.93 4.06 6.68l-3.42 3.29c-11.58 2.89-12.42 4.26-12.82 4.9C1.21 44.65.07 54.11 0 54.52c-.03.34.07.7.3.97.23.27.57.4.91.4h49.55c.34 0 .67-.13.91-.4s.34-.6.3-.97c-.31-2.35-1.31-10.11-2.55-12.19zm-25.69-.54h-.07c-.24 0-.4-.2-.4-.4v-1.17c0-.24.2-.4.4-.4h4.63c.23 0 .4.2.4.4v1.17c0 .24-.2.4-.5.4h-4.5.04zm1.01 2.46h2.48l.78 3.76h-4.06l.77-3.76h.03zm5.34 1.67-.4-2.01c.94-.5 1.51-1.48 1.51-2.52v-1.17c0-1.58-1.28-2.85-2.85-2.85h-.54c1.21-.27 2.38-.81 3.52-1.61l3.12 2.99-4.36 7.17zm-5.88-8.56h-.54c-1.58 0-2.85 1.28-2.85 2.85v1.17c0 1.04.57 2.01 1.51 2.52l-.4 2.05-4.33-7.18 3.12-2.99c1.14.81 2.32 1.34 3.52 1.61l-.03-.03zm11.72-12.05c-.4.1-.7.4-.84.81-1.78 5.37-5.44 9-9.1 9-3.66 0-7.32-3.63-9.1-9-.13-.4-.44-.67-.84-.77-1.01-.3-1.85-1.54-1.98-3.02-.1-1.11.2-2.22.81-2.92 1.17-.54 4.83-2.48 6.38-6.01 2.25 1.31 7.79 4.2 15.91 6.11.57.7.84 1.75.74 2.82-.17 1.48-.97 2.72-1.98 3.02v-.04zm-13.6 25.11s.1.03.13.03H29.57c.4 0 .77-.24.97-.57l6.01-9.94c9.74 2.45 10.74 3.63 10.74 3.66.64 1.07 1.48 5.67 2.05 9.84H2.62c.54-4.03 1.41-8.76 2.05-9.84.03-.03 1.01-1.21 10.78-3.69l6.01 9.94c.2.3.5.5.91.54l-.05.03zm-1.04-39.91c-.2-.13-.44-.23-.7-.23-.17 0-.3 0-.44.1-.37.13-.67.47-.74.91-.5 2.45-2.65 4.2-4.1 5.1-.2-6.48.34-10.31 1.64-11.72.5-.54 1.17-.74 2.28-.74.47 0 .94.03 1.44.07.17 0 .37 0 .54-.07 5.98-2.15 10.07-1.95 12.45.57 2.08 2.18 3.09 6.34 2.99 12.35-9.68-2.45-15.29-6.31-15.36-6.34z" fill="#0056D3"/></svg>
                 </div>
                 <p class="nome">Rodrigo Beresca, CGA</p>
-                <p class="paragrafo">Portfolio Manager e Diretor CVM responsável pela gestão de fundos e  operações estruturadas. Profissional com 12 anos de experiência no mercado financeiro com passagem pela mesa proprietária da Tesouraria do Banco Santander e corretoras Ativa e Terra Investimentos. Formado em Engenharia Civil pela Escola Politécnica da Universidade de São Paulo, possui as certificações CPA20, CEA, CGA e CGE da Anbima e aprovado na prova CFA Nível 1.</p>
+                <p class="paragrafo">Co-fundador&Partner, Portfolio Manager e Diretor CVM responsável pela gestão dos fundos e  operações estruturadas. Profissional com 12 anos de experiência no mercado financeiro com passagem pela mesa proprietária da Tesouraria do Banco Santander e corretoras de Investimentos. Formado em Engenharia Civil pela Escola Politécnica da Universidade de São Paulo, possui as certificações CPA20, CEA, CGA e CGE da Anbima e aprovado na prova CFA Nível 1.</p>
             </div>
             <div>
                 <div class="icone">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 55.89" xml:space="preserve"><path d="M49.42 42.33c-.4-.64-1.21-2.01-12.82-4.9l-3.42-3.29c1.71-1.75 3.09-4.06 4.03-6.68 1.68-.81 2.89-2.69 3.12-4.87.17-1.75-.27-3.42-1.24-4.6.27-7.35-.94-12.29-3.66-15.14-3.09-3.26-7.96-3.66-14.8-1.28-.57-.03-1.01-.07-1.41-.07-1.14 0-2.79.17-4.06 1.51-1.98 2.08-2.69 6.58-2.28 14.97-.97 1.21-1.41 2.89-1.24 4.6.23 2.18 1.44 4.1 3.12 4.87.94 2.65 2.35 4.93 4.06 6.68l-3.42 3.29c-11.58 2.89-12.42 4.26-12.82 4.9C1.21 44.65.07 54.11 0 54.52c-.03.34.07.7.3.97.23.27.57.4.91.4h49.55c.34 0 .67-.13.91-.4s.34-.6.3-.97c-.31-2.35-1.31-10.11-2.55-12.19zm-25.69-.54h-.07c-.24 0-.4-.2-.4-.4v-1.17c0-.24.2-.4.4-.4h4.63c.23 0 .4.2.4.4v1.17c0 .24-.2.4-.5.4h-4.5.04zm1.01 2.46h2.48l.78 3.76h-4.06l.77-3.76h.03zm5.34 1.67-.4-2.01c.94-.5 1.51-1.48 1.51-2.52v-1.17c0-1.58-1.28-2.85-2.85-2.85h-.54c1.21-.27 2.38-.81 3.52-1.61l3.12 2.99-4.36 7.17zm-5.88-8.56h-.54c-1.58 0-2.85 1.28-2.85 2.85v1.17c0 1.04.57 2.01 1.51 2.52l-.4 2.05-4.33-7.18 3.12-2.99c1.14.81 2.32 1.34 3.52 1.61l-.03-.03zm11.72-12.05c-.4.1-.7.4-.84.81-1.78 5.37-5.44 9-9.1 9-3.66 0-7.32-3.63-9.1-9-.13-.4-.44-.67-.84-.77-1.01-.3-1.85-1.54-1.98-3.02-.1-1.11.2-2.22.81-2.92 1.17-.54 4.83-2.48 6.38-6.01 2.25 1.31 7.79 4.2 15.91 6.11.57.7.84 1.75.74 2.82-.17 1.48-.97 2.72-1.98 3.02v-.04zm-13.6 25.11s.1.03.13.03H29.57c.4 0 .77-.24.97-.57l6.01-9.94c9.74 2.45 10.74 3.63 10.74 3.66.64 1.07 1.48 5.67 2.05 9.84H2.62c.54-4.03 1.41-8.76 2.05-9.84.03-.03 1.01-1.21 10.78-3.69l6.01 9.94c.2.3.5.5.91.54l-.05.03zm-1.04-39.91c-.2-.13-.44-.23-.7-.23-.17 0-.3 0-.44.1-.37.13-.67.47-.74.91-.5 2.45-2.65 4.2-4.1 5.1-.2-6.48.34-10.31 1.64-11.72.5-.54 1.17-.74 2.28-.74.47 0 .94.03 1.44.07.17 0 .37 0 .54-.07 5.98-2.15 10.07-1.95 12.45.57 2.08 2.18 3.09 6.34 2.99 12.35-9.68-2.45-15.29-6.31-15.36-6.34z" fill="#0056D3"/></svg>
                 </div>
                 <p class="nome">Deib Otoch Neto</p>
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur. Egestas diam platea purus consectetur. Lectus suspendisse cras senectus nisi mi tellus ac orci metus. At nec aliquam amet diam purus et penatibus cras nunc. Nisl magna egestas egestas vitae elit adipiscing a placerat aliquet diam platea purus consectetur. Lectus suspendisse cras senectus.</p>
+                <p class="paragrafo">Co-fundador & Partner, Diretor de Risco e Compliance. Profissional com 7 anos de experiência no mercado financeiro em estruturação e avalição de risco de crédito, de liquidez e de mercado em FIDC, Direito Creditório, Butique de Crédito, Agronegócio, e Exportação. Formado em economia, teve passagem por áreas de risco, controles internos e Business Partner na Lockton Corretora de Seguros, Grupo Multiplica e Lako Capital.</p>
             </div>
             <div>
                 <div class="icone">
@@ -145,7 +160,7 @@ the_content();
             <div class="col-12 col-md-6">
                 <picture>
                     <source media="(max-width: 799px)" srcset="<?php echo do_shortcode("[img-url]"); ?>valores-diretrizes-img-mobile.jpg">
-                        <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>valores-diretrizes-img.jpg" alt="" />
+                        <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>valores-diretrizes-img.jpg" alt="Valores e diretrizes de Gestão" />
                     </source>
                 </picture>
             </div>
@@ -202,7 +217,7 @@ the_content();
             </div>
             <div class="col-12 col-md-5 d-none d-md-block">
                 <picture>
-                    <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>estrutura-organizacional-img.jpg" alt="" />
+                    <img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>estrutura-organizacional-img.jpg" alt="Estrutura organizacional" />
                 </picture>
             </div>
         </div>
@@ -257,7 +272,7 @@ the_content();
 </section>
 
 
-<section class="parcerias">
+<!-- <section class="parcerias">
     <div class="container">
         <h2 class="titulo">Parcerias e Sistemas</h2>
         <div class="slider-parcerias">
@@ -270,15 +285,7 @@ the_content();
             <div><img class="img-fluid" src="<?php echo do_shortcode("[img-url]"); ?>parcerias-logo-7.png" alt="Lote 45" /></div>
         </div>
     </div>
-</section>
-
-<section class="contato" id="contato">
-    <div class="container">
-        <h2 class="titulo">Quer saber mais sobre nossas soluções?</h2>
-        <p class="paragrafo">Entre em contato conosco através do e-mail <a href="mailto: ola@numberasset.com">ola@numberasset.com</a></p>
-    </div>
-</section>
-
+</section> -->
 
 <?php
     get_footer();
