@@ -5068,9 +5068,10 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 42px 36px;
+    margin: 0 auto;
   }
   .nossa-equipe .slider-equipe > div {
-    width: 31%;
+    width: 48%;
   }
 }
 @media (min-width: 1600px) {
@@ -5082,9 +5083,6 @@ a {
   }
   .nossa-equipe .slider-equipe {
     gap: 64px 48px;
-  }
-  .nossa-equipe .slider-equipe > div {
-    width: 30%;
   }
 }
 .valores {
@@ -5707,7 +5705,7 @@ a {
     gap: 92px 16px;
   }
   .informacoes-regulatorias__wrapper .lista-downloads .nome {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin: 24px 0 8px 0;
     padding-right: 16px;
   }

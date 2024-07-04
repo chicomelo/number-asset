@@ -1,7 +1,7 @@
 <section class="contato" id="contato">
     <div class="container">
         <h2 class="titulo">Quer saber mais sobre nossas soluções?</h2>
-        <p class="paragrafo">Entre em contato conosco através do e-mail <a href="mailto: rodrigo@numberasset.com.br">rodrigo@numberasset.com.br</a></p>
+        <p class="paragrafo">Entre em contato conosco através do e-mail <a href="mailto: contato@numberasset.com.br">contato@numberasset.com.br</a></p>
     </div>
 </section>
 
@@ -21,7 +21,7 @@
                 </p>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12 col-md-9">
                 <p>
                     A Number Asset Brasil Ltda. distribui cotas de fundos de investimentos sob sua gestão, observada as políticas disponíveis neste website. Os Fundos de Investimento não contam com garantia do administrador, do gestor da carteira, de qualquer mecanismo de seguro ou Fundo Garantidor de Crédito – FGC. A rentabilidade divulgada não é líquida de impostos. A rentabilidade obtida não representa garantia de rentabilidade futura. É recomendável a leitura cuidadosa do prospecto e regulamento do fundo de investimento pelo investidor antes de aplicar seus recursos.
@@ -31,10 +31,10 @@
             <div class="col-12 col-md-3">
                 <div class="canal-denuncia">
                     <p>Canal de Denúncia</p>
-                    <img src="<?php echo do_shortcode("[img-url]"); ?>selo-anbima.png" />
+                    <img src="<?php echo do_shortcode("[img-url]"); ?>selo-anbima.png" alt="Anbima" />
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-12">
                 <div class="btn__wrapper">
