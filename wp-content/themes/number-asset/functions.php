@@ -58,6 +58,12 @@ function img_url() {
 }
 add_shortcode( 'img-url', 'img_url' );
 
+// Add Shortcode
+function pdf_url() {
+    return get_template_directory_uri().'/assets/pdf/'; 
+}
+add_shortcode( 'pdf-url', 'pdf_url' );
+
 // Register a new navigation menu
 function add_Main_Nav() {
 	register_nav_menu('header-menu',__( 'Header Menu' ));

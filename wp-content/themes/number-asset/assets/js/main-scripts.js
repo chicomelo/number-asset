@@ -69,8 +69,6 @@ jQuery(document).ready(function ($) {
         $('.btn-enviar .btn').addClass('btn-disabled');
         $('.wpcf7-spinner').html("<div class='spinner'></div>");
 
-
-
         $('.form-denuncias .wpcf7-form .wpcf7-textarea').on("keyup", function (e) {
             if($(this).val().length > 2){
                 $('.btn-enviar .btn').removeClass('btn-disabled');
@@ -91,62 +89,5 @@ jQuery(document).ready(function ($) {
         })
 
     }
-
-    // if ($('.lista-solucoes').length) {
-    //     $('.lista-solucoes').slick({
-    //         centerMode: true,
-    //         lazyLoad: 'ondemand',
-    //         centerPadding: '0',
-    //         infinite: false,
-    //         slidesToShow: 5,
-    //         responsive: [
-    //             {
-    //                 breakpoint: 4000,
-    //                 settings: "unslick"
-    //             },
-    //             {
-    //                 breakpoint: 1024,
-    //                 settings: {
-    //                     arrows: false,
-    //                     centerMode: true,
-    //                     dots: true,
-    //                     centerPadding: '40px',
-    //                     slidesToShow: 3
-    //                 }
-    //             },
-    //             {
-    //                 breakpoint: 960,
-    //                 settings: {
-    //                     arrows: false,
-    //                     centerMode: true,
-    //                     dots: true,
-    //                     centerPadding: '0px',
-    //                     slidesToShow: 3
-    //                 }
-    //             },
-    //             {
-    //                 breakpoint: 768,
-    //                 settings: {
-    //                     arrows: false,
-    //                     centerMode: true,
-    //                     dots: true,
-    //                     centerPadding: '90px',
-    //                     slidesToShow: 1
-    //                 }
-    //             },
-    //             {
-    //                 breakpoint: 480,
-    //                 settings: {
-    //                     arrows: false,
-    //                     dots: true,
-    //                     centerMode: true,
-    //                     centerPadding: '45px',
-    //                     slidesToShow: 1
-    //                 }
-    //             }
-    //         ]
-    //     });
-    // }
-
 
 });

@@ -23,7 +23,7 @@ the_content();
             <div class="col-12 col-md-6">
                 <h2 class="titulo">Quem somos</h2>
                 <p class="paragrafo">A NUMBER nasce em fevereiro de 2024 fundada por profissionais do mercado financeiro que atuam nas áreas de crédito, operações estruturadas, distribuição e gestão de recursos contando com um time que acumula <b>mais de 20 anos de experiência e conhecimento de mercado</b>.</p>
-                <p class="paragrafo">Ainda em 2024, após publicação do Ato Declaratório no Diário Oficial e filiação à Anbima, iniciará as operações de gestão de fundos como uma ASSET INDEPENDENTE especializada nos segmentos de operações estruturadas, fundos de crédito privado e gestão de carteiras.</p>
+                <!-- <p class="paragrafo">Ainda em 2024, após publicação do Ato Declaratório no Diário Oficial e filiação à Anbima, iniciará as operações de gestão de fundos como uma ASSET INDEPENDENTE especializada nos segmentos de operações estruturadas, fundos de crédito privado e gestão de carteiras.</p> -->
                 <p class="paragrafo">Nosso compromisso pauta-se pela transparência e pela seriedade em todos os aspectos de atuação. Cada decisão que tomamos passa por processos dinâmicos que estão em constante aperfeiçoamento e por uma criteriosa validação por meio dos departamentos de Gestão, Risco e Compliance.</p>
             </div>
         </div>
@@ -223,7 +223,7 @@ the_content();
         </div>
     </div>
 </section> -->
-
+<!-- 
 <section class="processo-investimento" id="processo-de-investimento">
 
     <div class="container">
@@ -269,7 +269,7 @@ the_content();
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- <section class="parcerias">

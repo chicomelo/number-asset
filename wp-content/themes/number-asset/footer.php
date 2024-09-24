@@ -21,6 +21,15 @@
                 </p>
             </div>
         </div>
+
+        
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <p>A Number Asset se encontra em processo de credenciamento perante a Comissão de Valores Mobiliários como administrador de carteiras, na modalidade "gestor de recursos".</p>
+            </div>
+        </div>
+
+
         <!-- <div class="row">
             <div class="col-12 col-md-9">
                 <p>
@@ -43,6 +52,9 @@
                     <a href="javascript: void(0);" class="btn-altere-configuracao" title="Altere suas configurações">Altere suas configurações</a>
                     <a href="/canal-de-denuncias/" title="Canal de denúncias">Canal de denúncias</a>
                 </div>
+
+
+
                 <div class="copy">
                     Number Asset Brasil © Copyright <?php echo date('Y'); ?> | Todos os direitos reservados
                 </div>
