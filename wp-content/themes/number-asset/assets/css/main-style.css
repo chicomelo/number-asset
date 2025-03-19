@@ -4742,10 +4742,9 @@ a {
 }
 .footer__number .endereco {
   text-align: center;
-  margin-bottom: 42px;
+  margin: 42px 0px;
 }
 .footer__number .canal-denuncia {
-  margin-top: 42px;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -4753,7 +4752,6 @@ a {
   width: fit-content;
 }
 .footer__number .canal-denuncia img {
-  margin-top: 8px;
   width: 169px;
 }
 .footer__number .btn__wrapper {
@@ -4784,6 +4782,9 @@ a {
     margin: 0;
     margin-bottom: 64px;
   }
+  .footer__number .texto-footer {
+    width: 70%;
+  }
   .footer__number .copy {
     margin-top: 64px;
     text-align: left;
@@ -4793,7 +4794,7 @@ a {
     text-align: right;
   }
   .footer__number .canal-denuncia {
-    margin-top: 0px;
+    margin-top: 42px;
     margin-left: auto;
     margin-right: 0;
   }
